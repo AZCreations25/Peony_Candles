@@ -166,8 +166,8 @@
 
   <!-- Second product - requires color -->
   <div class="product">
-    <img src="Peony Candles.jpg" alt="Product">
-    <h3>Peony Candles</h3>
+    <img src="Customised Peony Candles.jpg" alt="Product">
+    <h3>Customised Peony Candles</h3>
     <p>₹120</p>
     QTY:<input type="number" id="qtyB" value="1" min="1" style="width: 25px;">
     <br>Colour: <input type="text" id="colorB" placeholder="e.g. Yellow" style="width: 120px;">
@@ -227,7 +227,7 @@
     alert("Please enter the colour name.");
     return;
   }
-  const fullName = `Peony Candles - ${color}`;
+  const fullName = `Customised Peony Candles - ${color}`;
   addToCart(fullName, 120, qty);
 }
 
@@ -238,7 +238,7 @@ function orderPeonyProduct() {
     alert("Please enter the colour name.");
     return;
   }
-  const fullName = `Peony Candles - ${color}`;
+  const fullName = `Customised Peony Candles - ${color}`;
   openSingleOrderForm(fullName, 120, qty);
 }
 
